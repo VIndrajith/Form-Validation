@@ -1,0 +1,54 @@
+#myForm {
+    background-color: antiquewhite;
+    border: black;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    background-image: url('cover1.jpg');
+    background-size: cover;
+}
+/* Style for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  
+  }
+
+ /* body {
+   
+    background-image: url('187161.jpg');
+    background-size: cover;*/
+  
+  /* Style for form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    display: block;
+    width: 450px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  
+  /* Style for form submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: rgb(199, 0, 0);
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
